@@ -1,0 +1,91 @@
+.discover-section {
+  width: 90%;
+  margin: 100px auto;
+  padding: 20px;
+  font-family: "Poppins";
+}
+
+.discover-section {
+  text-align: center;
+  padding: 20px;
+}
+
+.discover-section h2 {
+  font-size: 1.8em;
+  margin-bottom: 20px;
+}
+
+.reviews-container {
+  display: flex;
+  justify-content: space-around;
+  gap: 15px;
+  flex-wrap: wrap;
+}
+
+.review-card,
+.main-review-card {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  width: 100%;
+  max-width: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.main-review-card {
+  max-width: 400px;
+}
+
+.profile-image,
+.main-image {
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  object-fit: cover;
+  margin-bottom: 10px;
+}
+
+.main-image {
+  width: 100%;
+  border-radius: 10px;
+  height: auto;
+  margin-bottom: 15px;
+}
+
+.main-review-content {
+  text-align: left;
+  padding: 10px;
+}
+
+h3 {
+  margin: 5px 0;
+}
+
+.rating {
+  color: gold;
+}
+
+p {
+  font-size: 0.8em;
+  line-height: 1.5;
+  margin-bottom: 10px;
+}
+
+a {
+  color: #3b5998;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+  .discover-section {
+    padding-top: 80px;
+  }
+}

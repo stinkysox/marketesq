@@ -1,0 +1,34 @@
+.header-section {
+  width: 90%;
+  display: flex;
+  margin: auto;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  padding-top: 20px;
+  font-family: "Poppins", sans-serif;
+  margin-bottom: 20px;
+}
+
+.header-section div {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+.header-section li {
+  cursor: pointer;
+}
+
+@media (max-width: 768px) {
+  .header-section li {
+    font-size: 10px;
+  }
+
+  .header-section h2 {
+    font-size: 14px;
+  }
+
+  .header-section div {
+    gap: 10px;
+  }
+}
